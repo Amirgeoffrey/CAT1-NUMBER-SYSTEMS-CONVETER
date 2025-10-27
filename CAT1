@@ -109,7 +109,7 @@
 
         // Convert from decimal to output base
         const convertedValue = decimalValue.toString(toBase).toUpperCase();
-        resultDiv.textContent = ${inputValue} (base ${fromBase}) = ${convertedValue} (base ${toBase});
+        resultDiv.textContent = `${inputValue} (base ${fromBase}) = ${convertedValue} (base ${toBase})`;
       } catch {
         resultDiv.textContent = "Invalid input for the selected base!";
       }
